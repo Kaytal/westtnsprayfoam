@@ -1,0 +1,33 @@
+.main-header {
+  background: url(/assets/images/BkgImage.png) center no-repeat;
+  background-size: cover;
+  padding: 12.5rem 0;
+  position: relative;
+  .site-title {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    small {
+      font-size: 3rem;
+      font-style: normal;
+      color: $white;
+      font-weight: 600;
+    }
+  }
+  .callout, .contact-us {
+    position: absolute;
+    top: 1rem;
+    font-size: 1rem;
+    color: $white;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: italic;
+  }
+  .callout {
+    left: 1rem;
+  }
+  .contact-us {
+    right: 1rem;
+  }
+}
