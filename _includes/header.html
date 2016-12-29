@@ -1,25 +1,14 @@
 <header class="main-header content-wrapper">
-
-  <nav class="center-wrapper nav-main">
-
-    <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    {% for my_page in site.pages %}
-      {% if my_page.active %}
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-      {% endif %}
-    {% endfor %}
-
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-
-    <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
-  </nav>
-
-  <div class="site-title">
-    <h1>{{ site.title }}</h1>
+  <div class="callout">
+    Free Estimates
   </div>
-
-  
-
+  <div class="site-title">
+    <h1>West TN Spray Foam</h1>
+    <small>Open and Closed Cell Spray Foam Applications</small>
+  </div>
+  <div class="contact-us">
+    <div class="contact-us__contact">Connor Trahan - (901) 277-5058</div>
+    <div class="contact-us__contact">Jeremy Bryant - (901) 827-7076</div>
+  </div>
 
 </header>

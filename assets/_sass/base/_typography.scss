@@ -4,6 +4,7 @@ html,body {
   font-size: 16px;
   font-family: 'Titillium Web', serif;
   color: $black;
+  line-height: 1;
 }
 
 a {
@@ -16,20 +17,14 @@ a {
 
 h1,h2,h3,h4,h5 {
   font-weight: 700;
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
   font-size: 3.75rem;
   font-style: italic;
   color: $primary-color;
-  line-height: 5.75rem;
-  small {
-    font-size: 3rem;
-    font-style: normal;
-    color: $white;
-    font-weight: 600;
-    line-height: 3.625rem;
-  }
 }
 
 h2 {
