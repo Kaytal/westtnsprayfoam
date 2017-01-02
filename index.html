@@ -1,12 +1,46 @@
 ---
 layout: default
-crawlertitle: "Home"
-title: "Josh Bryant"
 summary: "main page"
 ---
 <div class="estimate-form-wrapper">
   <div class="estimate-form">
     <p class="estimate-form__text">Submit the form or give us a call to have one of our specialists contact you for your free estimate</p>
+    <form method="POST" action="https://www.formingo.co/submit/kaytal@gmail.com" target="_blank">
+      <input data-validation="required" type="text" name="name" placeholder="Name">
+      <input data-validation="email" type="email" name="email" placeholder="Email">
+      <input data-validation="required" type="phone" name="phone" placeholder="Phone">
+      <input type="submit" value="Get Free Estimate">
+    </form>
+  </div>
+</div>
+<div class="services">
+  <h2>What we Do!</h2>
+  <div class="services-wrapper">
+    <div class="service residential">
+      <img src="{{ site.images }}/House.png" class="service__image" alt="New or Remodeled Homes" />
+      <p class="service__text">New or Remodeled Homes, Attic Upgrades, Crawl Spaces</p>
+    </div>
+    <div class="service commercial">
+      <img src="{{ site.images }}/office.png" class="service__image" alt="Shops, Office Buildings, Commercial Buildings" />
+      <p class="service__text">Shops, Office Buildings, Commercial Buildings</p>
+    </div>
+    <div class="service agricultural">
+      <img src="{{ site.images }}/Barn.png" class="service__image" alt="Barns, Outbuildings and Agricultural" />
+      <p class="service__text">Barns, Outbuildings, Stables, Agricultural Buildings</p>
+    </div>
+  </div>
+</div>
+<div class="how-and-why">
+  <h2>The How and Why!</h2>
+  <div class="extra-info">
+    <p>Everyone knows that when your space isn’t properly insulated you are heating/cooling in excess.  Therefore you are literally throwing money out the window or, more metaphorically, you are throwing money out through the gaps in your insulation.</p>
+    <p>The common way to insulate large spaces up to now has always been to buy rolls of fiberglass/wool insulation batts.  These are then placed in between studs and you drywall around them. This doesn’t create an airtight seal.  Therefore you are losing the heat/cooling YOU paid for.</p>
+    <p>Spray foam applications offer a much more added value.  Modern consumers are looking for better, more energy efficient ways of heating/cooling.  The best way to do this is to not waste the energy they are already expending to heat/cool.  Spray foam is inexpensive, quick to be applied, and lasts much longer than traditional insulation.</p>
+  </div>
+</div>
+<div class="estimate-form-wrapper">
+  <div class="estimate-form">
+    <p class="estimate-form__text">Ready to get started?  Fill out the form below!</p>
     <form method="POST" action="https://www.formingo.co/submit/kaytal@gmail.com" target="_blank">
       <input data-validation="required" type="text" name="name" placeholder="Name">
       <input data-validation="email" type="email" name="email" placeholder="Email">
