@@ -23,13 +23,13 @@
         line-height: 1.2;
       }
       &.residential {
-        background-image: url(assets/images/residential.jpg);
+        background-image: url(../images/residential.jpg);
       }
       &.commercial {
-        background-image: url(assets/images/commercial.jpg);
+        background-image: url(../images/commercial.jpg);
       }
       &.agricultural {
-        background-image: url(assets/images/agricultural.jpg);
+        background-image: url(../images/agricultural.jpg);
       }
     }
     @include break-larger($md-break-point) {
