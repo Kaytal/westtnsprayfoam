@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Specializing in open and closed cell spray foam insulation in and around the Mid-South.  
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://kaytal.github.io/westtnsprayfoam" # the base hostname & protocol for your site
 
 
 # Build settings
