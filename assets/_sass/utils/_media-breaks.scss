@@ -1,0 +1,17 @@
+@mixin break-smaller ($break-point) {
+  @media only screen and (max-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin break-middle ($break-point1, $break-point2) {
+  @media only screen and (min-width: $break-point1) and (max-width: $break-point2) {
+    @content;
+  }
+}
+
+@mixin break-larger ($break-point) {
+  @media only screen and (min-width: $break-point) {
+    @content;
+  }
+}

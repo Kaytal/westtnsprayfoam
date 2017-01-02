@@ -1,0 +1,42 @@
+.estimate-form-wrapper {
+    padding: 1rem;
+    background-color: $black;
+    color: white;
+    text-align: center;
+    .estimate-form {
+      &__text {
+        max-width: 550px;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        padding-bottom: 1rem;
+      }
+      form {
+        input {
+          border: 0;
+          padding: .25em .5em;
+          margin: 0;
+          display: block;
+          margin-bottom: 10px;
+          width: calc(100% - 1rem);
+          &[type='submit'] {
+            width: 100%;
+            background-color: $primary-color;
+            &:hover {
+              background-color: darken($primary-color, 10%);
+            }
+          }
+        }
+        @include break-larger($md-break-point) {
+          display: flex;
+          margin: 0 auto;
+          max-width: 700px;
+          input {
+            border: 0;
+            flex: 1;
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+}
